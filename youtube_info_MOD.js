@@ -304,6 +304,8 @@ module.exports = {
 			};
 
 			//Load playlist
+			const playlist = this.evalMessage(data.url, cache);
+			const playlistID = playlist.slice(38);
 			var apikey = "";
 			if(data.apikey) {
 				apikey = this.evalMessage(data.apikey, cache);
@@ -315,7 +317,7 @@ module.exports = {
 			const options = {
 				maxResults: results
 			};
-			ypi(apikey, playlist, options).then(items => {
+			ypi(apikey, playlistID, options).then(items => {
 				var urlList = [];
 				switch(info) {
 					case 0://Video ID
@@ -371,7 +373,7 @@ module.exports = {
 					case 10://Thumbnail (High)
 						items.forEach(item=> {
 							urlList.push(item.thumbnails.high);
-					});
+						});
 						break;
 					case 11://Thumbnail (Standard)
 						items.forEach(item=> {
@@ -386,15 +388,14 @@ module.exports = {
 					default:
 						break;
 				};
-				//Store Output
-				const storage = parseInt(data.storage);
+				//Store list
 				const varName = _this.evalMessage(data.varName, cache);
+				const storage = parseInt(data.storage);
 				_this.storeValue(urlList, storage, varName, cache);
-
+				_this.callNextAction(cache);
+				
 			}).catch(console.error);
-
-			setTimeout(function(){ _this.callNextAction(cache); }, 1000);
-
+	
 
 
 		} else {//Video section (by Aamon)
