@@ -6,7 +6,7 @@ module.exports = {
 	// This is the name of the action displayed in the editor.
 	//---------------------------------------------------------------------
 
-	name: "Store YouTube Info",
+	name: "YouTube Search",
 
 	//---------------------------------------------------------------------
 	// Action Section
@@ -40,7 +40,7 @@ module.exports = {
 	//---------------------------------------------------------------------
 
 	// Who made the mod (If not set, defaults to "DBM Mods")
-	author: "Aamon",
+	author: "Aamon & ZockerNico",
 
 	// The version of the mod (Defaults to 1.0.0)
 	version: "1.9.5", //Added in 1.9.5

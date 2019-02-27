@@ -6,7 +6,7 @@ Those are my own mods for DBM:
 • Find Item in List
 • Play YouTube Playlist
 • Restart Bot
-• Store YouTube Info
+• YouTube Search
 
 In the "outdated" folder, you can find:
 
