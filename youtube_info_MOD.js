@@ -304,8 +304,6 @@ module.exports = {
 			};
 
 			//Load playlist
-			const playlist = this.evalMessage(data.url, cache);
-			const playlistID = playlist.slice(38);
 			var apikey = "";
 			if(data.apikey) {
 				apikey = this.evalMessage(data.apikey, cache);
@@ -317,7 +315,7 @@ module.exports = {
 			const options = {
 				maxResults: results
 			};
-			ypi(apikey, playlistID, options).then(items => {
+			ypi(apikey, playlist, options).then(items => {
 				var urlList = [];
 				switch(info) {
 					case 0://Video ID
