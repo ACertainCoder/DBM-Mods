@@ -22,5 +22,5 @@ A: Mostly they have been merged with others you can find on this page.
 Q: Are all mods made by myself?
 A: Not all! Sometimes I'm just editing some stuff that makes it better and leave a comment who was the original creator.
 
-A: Where do I get my ideas?
-Q: Mostly it's stuff that I was dreaming of when as I started using DBM or a suggestion from a user that nobody is looking at.
+Q: Where do I get my ideas?
+A: Mostly it's stuff that I was dreaming of when as I started using DBM or a suggestion from a user that nobody is looking at.
