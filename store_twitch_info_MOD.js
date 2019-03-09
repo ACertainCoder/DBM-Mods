@@ -711,9 +711,9 @@ module.exports = {
 								const storage = parseInt(data.storage);
 								const varName = _this.evalMessage(data.varName, cache);
 								_this.storeValue(result, storage, varName, cache);
-								_this.callNextAction(cache);
 							};
-							return console.log(`No results for ${input}.`);
+							console.log(`No results for ${input}.`);
+							return _this.callNextAction(cache);
 						};
 						switch(infoType) {
 							case 0: result = info.data[0].id; break;
@@ -756,9 +756,9 @@ module.exports = {
 								const storage = parseInt(data.storage);
 								const varName = _this.evalMessage(data.varName, cache);
 								_this.storeValue(result, storage, varName, cache);
-								_this.callNextAction(cache);
 							};
-							return console.log(`No results for ${input}.`);
+							console.log(`No results for ${input}.`);
+							return _this.callNextAction(cache);
 						};
 						switch(infoType) {
 							case 0: result = info.data[0].id; break;
@@ -806,14 +806,13 @@ module.exports = {
 							const storage = parseInt(data.storage);
 							const varName = _this.evalMessage(data.varName, cache);
 							_this.storeValue(result, storage, varName, cache);
-							_this.callNextAction(cache);
 						} else {
 							const storage = parseInt(data.storage);
 							const varName = _this.evalMessage(data.varName, cache);
 							_this.storeValue(result2, storage, varName, cache);
-							_this.callNextAction(cache);
 						};
-						return console.log(`No results for ${input}.`);
+						console.log(`No results for ${input}.`);
+						return _this.callNextAction(cache);
 					};
 					switch(infoType) {
 						case 0: result = info.data[0].id; break;
@@ -864,9 +863,9 @@ module.exports = {
 								const storage = parseInt(data.storage);
 								const varName = _this.evalMessage(data.varName, cache);
 								_this.storeValue(result, storage, varName, cache);
-								_this.callNextAction(cache);
 							};
-							return console.log(`No results for ${input}.`);
+							console.log(`No results for ${input}.`);
+							return _this.callNextAction(cache);
 						};
 					switch(infoType) {
 						case 0: info.data.forEach(video => result.push(video.id)); break;
@@ -925,14 +924,13 @@ module.exports = {
 								const storage = parseInt(data.storage);
 								const varName = _this.evalMessage(data.varName, cache);
 								_this.storeValue(result, storage, varName, cache);
-								_this.callNextAction(cache);
 							} else if (result2.length !== 0) {
 								const storage = parseInt(data.storage);
 								const varName = _this.evalMessage(data.varName, cache);
 								_this.storeValue(result2, storage, varName, cache);
-								_this.callNextAction(cache);
 							};
-							  return console.log(`No results for ${input}.`);
+							  console.log(`No results for ${input}.`);
+							  return _this.callNextAction(cache);
 							};
 						switch(infoType) {
 							case 0: result = info.data[0].id.toString(); break;
@@ -986,14 +984,13 @@ module.exports = {
 									const storage = parseInt(data.storage);
 									const varName = _this.evalMessage(data.varName, cache);
 									_this.storeValue(result, storage, varName, cache);
-									_this.callNextAction(cache);
 								} else if (result2.length !== 0) {
 									const storage = parseInt(data.storage);
 									const varName = _this.evalMessage(data.varName, cache);
 									_this.storeValue(result2, storage, varName, cache);
-									_this.callNextAction(cache);
 								};
-								return console.log(`No results for ${input}.`);
+								console.log(`No results for ${input}.`);
+								return _this.callNextAction(cache);
 								};
 						switch(infoType) {
 							case 0: result = info.data[0].id.toString(); break;
