@@ -1,6 +1,7 @@
 # My-DBM-Mods
 Those are my own mods for DBM:
 
+• Call Command or Event
 • Convert Time
 • Convert Variable
 • Find Item in List
@@ -25,4 +26,4 @@ Q: Are all mods made by myself?
 A: Not all! Sometimes I'm just editing some stuff that makes it better and leave a comment who was the original creator.
 
 Q: Where do I get my ideas?
-A: Mostly it's stuff that I was dreaming of when as I started using DBM or a suggestion from a user that nobody is looking at.
+A: Mostly it's stuff that I was dreaming of when I started using DBM or a suggestion from a user that nobody is looking at.
