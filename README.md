@@ -6,11 +6,13 @@ Those are my own mods for DBM:
 • Find Item in List
 • Play YouTube Playlist
 • Restart Bot
+• Store Twitch Info
 • YouTube Search
 
 In the "outdated" folder, you can find:
 
 • Store YouTube Playlist Info
+• Store YouTube Info
 
 
 
