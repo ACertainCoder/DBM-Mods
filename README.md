@@ -1,29 +1,32 @@
 # My-DBM-Mods
 Those are my own mods for DBM:
 
-• Call Command or Event
-• Convert Time
-• Convert Variable
-• Find Item in List
-• Play YouTube Playlist
-• Restart Bot
-• Store Twitch Info
-• YouTube Search
+- Call Command or Event
+- Convert Time
+- Convert Variable
+- Find Item in List
+- Play YouTube Playlist
+- Restart Bot
+- Store Twitch Info
+- YouTube Search
 
-In the "outdated" folder, you can find:
+Those are the outdated mods:
 
-• Store YouTube Playlist Info
-• Store YouTube Info
+- Store YouTube Playlist Info
+- Store YouTube Info
 
 
 
-FAQ:
+## FAQ:
 
-Q: Why are some mods outdated?
-A: Mostly they have been merged with others you can find on this page.
+1. Why are some mods outdated?
 
-Q: Are all mods made by myself?
-A: Not all! Sometimes I'm just editing some stuff that makes it better and leave a comment who was the original creator.
+- Mostly they have been merged with others you can find on this page.
 
-Q: Where do I get my ideas?
-A: Mostly it's stuff that I was dreaming of when I started using DBM or a suggestion from a user that nobody is looking at.
+2. Are all mods made by myself?
+
+- Not all! Sometimes I'm just editing some stuff that makes it better and leave a comment who was the original creator.
+
+3. Where do I get my ideas?
+
+- Mostly it's stuff that I was dreaming of when I started using DBM or a suggestion from a user that nobody is looking at.
