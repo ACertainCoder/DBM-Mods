@@ -162,7 +162,7 @@ action: function(cache) {
 		let result;
 		var loop = 0;
 
-    while(loop <= list.length) {
+    while(loop < list.length) {
 			if(list[loop] == item) {
 				result = loop;
 				break;
