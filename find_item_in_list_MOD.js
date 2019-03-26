@@ -27,7 +27,7 @@ section: "Lists and Loops",
 author: "ZockerNico",
 
 // The version of the mod (Defaults to 1.0.0)
-version: "1.1.0",
+version: "1.9.5", //Added in 1.9.5
 
 // A short description to show on the mod line for this mod (Must be on a single line)
 short_description: "This action searches for an item in a list and returns the position.",
@@ -156,26 +156,26 @@ action: function(cache) {
     const data = cache.actions[cache.index];
     const storage = parseInt(data.list);
     const varName = this.evalMessage(data.varName, cache);
-	const list = this.getList(storage, varName, cache);
-	const item = this.evalMessage(data.item, cache);
+		const list = this.getList(storage, varName, cache);
+		const item = this.evalMessage(data.item, cache);
 
-	let result;
-	var loop = 0;
+		let result;
+		var loop = 0;
 
     while(loop <= list.length) {
-		if(list[loop] == item) {
-			result = loop;
-			break;
-		} else {
-			++loop;
-		}
-	};
+			if(list[loop] == item) {
+				result = loop;
+				break;
+			} else {
+				++loop;
+			}
+		};
 
-    if (result) {
+    if (result !== undefined) {
       const varName2 = this.evalMessage(data.varName2, cache);
       const storage2 = parseInt(data.storage);
       this.storeValue(result, storage2, varName2, cache);
-    }
+    };
 
     this.callNextAction(cache);
   },
