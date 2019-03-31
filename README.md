@@ -1,16 +1,20 @@
 # My-DBM-Mods
-Those are my own mods for DBM:
+This are my own mods for DBM:
 
 - Call Command or Event
 - Convert Time
 - Convert Variable
+- Create Embed Message
 - Find Item in List
 - Play YouTube Playlist
 - Restart Bot
+- Set Embed Description
+- Set Embed Footer
+- Set Embed Timestamp
 - Store Twitch Info
 - YouTube Search
 
-Those are the outdated mods:
+This are the outdated mods:
 
 - Store YouTube Playlist Info
 - Store YouTube Info
