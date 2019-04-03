@@ -6,6 +6,7 @@ This are my own mods for DBM:
 - Convert Variable
 - Create Embed Message
 - Find Item in List
+- Loop Queue
 - Play YouTube Playlist
 - Restart Bot
 - Set Embed Description
