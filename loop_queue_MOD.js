@@ -188,18 +188,15 @@ mod: function(DBM) {
 		};
 		if(!this.dispatchers[id] || !!forceSkip) {
 			if(DBM.Audio.loopItem[id] == true) {//Check if Item Loop is active
-				console.log('LOOP: Item');
 				const item = this.playingnow[id];
 				this.playItem(item, id);
 			} else if(DBM.Audio.loopQueue[id] == true) {//Check if Queue Loop is active
-				console.log('LOOP: Queue');
 				const currentItem = this.playingnow[id];
 				this.queue[id].push(currentItem);
 				const nextItem = this.queue[id].shift();
 				this.playItem(nextItem, id);
 			} else {//Basic DBM function (No Loops are active)
 				if(this.queue[id].length > 0) {
-					console.log('LOOP: Off');
 					const item = this.queue[id].shift();
 					this.playItem(item, id);
 				} else {
