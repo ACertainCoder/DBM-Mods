@@ -12,6 +12,7 @@ This are my own mods for DBM:
 - Set Embed Description
 - Set Embed Footer
 - Set Embed Timestamp
+- Store Audio Info
 - Store Twitch Info
 - YouTube Search
 
