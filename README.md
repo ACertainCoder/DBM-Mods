@@ -11,13 +11,14 @@ This are my own mods for DBM:
 - Restart Bot
 - Set Embed Description
 - Set Embed Footer
-- Set Embed Timestamp
 - Store Audio Info
 - Store Twitch Info
 - YouTube Search
 
 This are the outdated mods:
 
+- Create Embed (Without Timestamp options)
+- Set Embed Timestamp
 - Store YouTube Playlist Info
 - Store YouTube Info
 
