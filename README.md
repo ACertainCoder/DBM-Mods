@@ -11,6 +11,7 @@ This are my own mods for DBM:
 - Restart Bot
 - Set Embed Description
 - Set Embed Footer
+- Skip Queue
 - Store Audio Info
 - Store Twitch Info
 - YouTube Search
