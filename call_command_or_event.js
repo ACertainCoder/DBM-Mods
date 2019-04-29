@@ -24,10 +24,10 @@ section: "Other Stuff",
 
 subtitle: function(data) {
 	let source;
-	if(parseInt(data.sourcetype) == 0) {
-		source = data.source.toString();
-	} else {
+	if(parseInt(data.sourcetype) == 1) {
 		source = data.source2.toString();
+	} else {
+		source = data.source.toString();
 	};
 	return `Call Command/Event ID "${source}"`;
 },
