@@ -13,6 +13,7 @@ This are my own mods for DBM:
 - Set Embed Footer
 - Skip Queue
 - Store Audio Info
+- Store Server Info
 - Store Twitch Info
 - YouTube Search
 
