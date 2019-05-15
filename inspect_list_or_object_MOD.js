@@ -73,7 +73,7 @@ module.exports = {
 	// are also the names of the fields stored in the action's JSON data.
 	//---------------------------------------------------------------------
 
-	fields: ["storage", "varName", "storage2", "varName2"],
+	fields: ["storage", "varName", "depth", "storage2", "varName2"],
 
 	//---------------------------------------------------------------------
 	// Command HTML
@@ -108,6 +108,12 @@ module.exports = {
 		</div>
 	</div><br><br><br>
 	<div>
+		<div style="float: left; width: 39%; padding-top: 8px;">
+			Depth:<br>
+			<input id="depth" class="round" type="text" placeholder="Optional">
+		</div>
+	</div><br><br><br>
+	<div style="padding-top: 8px;">
 		<div style="float: left; width: 35%;">
 			Store In:<br>
 			<select id="storage2" class="round">
@@ -189,6 +195,7 @@ module.exports = {
 
 		const WrexMods = this.getWrexMods();//As always.
 		const util = WrexMods.require('util');
+		const depth = parseInt(data.depth);
 		const storage = parseInt(data.storage);
 		const varName = this.evalMessage(data.varName, cache);
 		const variable = this.getVariable(storage, varName, cache);
@@ -198,7 +205,7 @@ module.exports = {
 		};
 
 		try {
-			var result = util.inspect(variable,  { depth: 0 });
+			var result = util.inspect(variable,  { depth: (depth > 0 ? depth : 0) });
 		} catch(error) {
 			if(error) {
 				console.error(error)
