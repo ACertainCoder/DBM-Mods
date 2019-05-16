@@ -111,7 +111,7 @@ html: function(isEvent, data) {
 	</div>
 	<div style="float: right; width: 60%; display: none;" id="directValue">
 		Value to Compare to:<br>
-		<input id="value" class="round" type="text" name="is-eval">
+		<input id="value" class="round" type="text" name="is-eval" placeholder="">
 	</div>
 </div><br><br><br>
 <div style="padding-top: 8px;">
@@ -131,11 +131,21 @@ init: function() {
 	const {glob, document} = this;
 
 	glob.onChange1 = function(event) {
-		if(event.value === "0") {
-			document.getElementById("directValue").style.display = 'none';
+		if(parseInt(event.value) == 0) {
+			document.getElementById('directValue').style.display = 'none';
 		} else {
-			document.getElementById("directValue").style.display = null;
-		}
+			document.getElementById('directValue').style.display = null;
+		};
+		switch(parseInt(event.value)) {
+			case 6:
+				document.getElementById('value').placeholder = "('My'|'Regex')";
+				break;
+			case 12:
+				document.getElementById('value').placeholder = "/('My'|'Regex')\\w+/igm";
+				break;
+			default:
+				document.getElementById('value').placeholder = "";
+		};
 	};
 
 	glob.onChange1(document.getElementById('comparison'));
