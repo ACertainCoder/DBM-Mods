@@ -17,12 +17,6 @@ This are my own mods for DBM:
 - Store Twitch Info
 - YouTube Search
 
-Beta:
-
-- Loop Queue [Moved functions to Welcome]
-- Play YouTube Livestream [Uses another node module to play livestreams of YouTube]
-- Welcome [Updated Music System for YouTube Livestream support]
-
 Outdated:
 
 - Create Embed (Without Timestamp options)
