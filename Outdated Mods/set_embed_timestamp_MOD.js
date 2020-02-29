@@ -47,7 +47,7 @@ subtitle: function(data) {
 	 //---------------------------------------------------------------------
 
 	 // Who made the mod (If not set, defaults to "DBM Mods")
-	 author: "ZockerNico",
+	 author: "ACertainCoder",
 
 	 // The version of the mod (Defaults to 1.0.0)
 	 version: "1.9.5",//Added in 1.9.5
