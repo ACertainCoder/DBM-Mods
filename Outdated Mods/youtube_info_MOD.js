@@ -40,7 +40,7 @@ module.exports = {
 	//---------------------------------------------------------------------
 
 	// Who made the mod (If not set, defaults to "DBM Mods")
-	author: "Aamon",
+	author: "Aamon & ACertainCoder",
 
 	// The version of the mod (Defaults to 1.0.0)
 	version: "1.9.5", //Added in 1.9.5
@@ -135,7 +135,7 @@ module.exports = {
 	<div>
 		<p>
 			<u>Mod Info:</u><br>
-			Created by <b>Aamon</b> and <b>ZockerNico</b>!
+			Created by <b>Aamon</b> and <b>ACertainCoder</b>!
 		</p>
 	</div>
 	<div style="width: 30%; padding-top: 8px;">
