@@ -36,7 +36,7 @@ module.exports = {
 	//---------------------------------------------------------------------
 	
 	// Who made the mod (If not set, defaults to "DBM Mods")
-	author: "ZockerNico",
+	author: "ACertainCoder",
 	
 	// The version of the mod (Defaults to 1.0.0)
 	version: "1.9.5",
@@ -92,7 +92,7 @@ module.exports = {
 	<div>
 		<div>
 			<p>
-				Made by ZockerNico.<br>Fixed By Armağan#2448
+				Made by ACertainCoder.<br>Fixed By Armağan#2448
 			</p>
 		</div>
 		<div style="float: left; width: 105%;">
