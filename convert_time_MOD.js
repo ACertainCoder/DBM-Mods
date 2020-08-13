@@ -92,7 +92,7 @@ html: function(isEvent, data) {
 	return `
 <div>
 	<div>
-		<p>Made by ZockerNico</p>
+		<p>Made by ACertainCoder</p>
 	</div><br>
 	<div style="float: left; width: 45%;">
 		Convert from:<br>
