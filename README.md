@@ -26,4 +26,4 @@ Alternatives:
 - Store YouTube Info
 
 ## Warning
-These mods have been made for DBM v1.5 and won't work with the current version anymore.
+These mods have been made for Discord Bot Maker v1.5 and may no longer work with the current version of DBM anymore.
