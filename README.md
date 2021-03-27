@@ -1,10 +1,11 @@
-# My-DBM-Mods
+# DBM-Mods
 These are my own mods for DBM:
 
 - Call Command or Event
 - Convert Time
 - Convert Variable
 - Create Embed Message
+- Create Leaderboard
 - Find Item in List
 - Loop Queue
 - Play YouTube Playlist
